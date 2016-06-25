@@ -1,1 +1,4 @@
 #Dependency Injection
+In the Jave community there's been a rush of lightweight containers that help to assemble components from different projects into cohesive application. Underlying these continers is a commom pattern to how they perform the wiring, a concept they refer under the varty generic name of "Inversion of Control". In this article I dig into how this pattern works, under the more specific name of "Dependency Injection", and contrast it with the Service Locator alternative. The choice between them is less important than the principle of seperating configuration from use.
+
+One of the entertaining things about the enterprise Java world is the huge amout of activity in building alternatives to the mainstream J2EE technologies, mush of it happening in open source. A lot of this is a reaction to the
